@@ -1215,12 +1215,28 @@ figure {
 }
 
 /* Responsiveness */
+@media only screen and (max-width: 1183px) and (min-width: 770px){
+	#main-container {
+	    padding: 30px 40px;
+	}
 
+	.zoom-image {
+	    width: 28%;
+	}
 
-@media only screen and (max-width: 769px) and (min-width: 500px){
+.about-me-container {
+    width: 28%;
+	}
+	
 	.menu-item {
 	    height: calc(20vh - 26px) !important;
 	}
+	
+}
+
+
+@media only screen and (max-width: 769px) and (min-width: 500px){
+	
 	
 	.main-navigation ul{
 		display: block !important;
@@ -1229,15 +1245,15 @@ figure {
 		display: none !important;
 	}
 	#main-container {
-	    padding: 30px 30px;
+	    padding: 30px 30px !important;
 	 }
 
 	 .about-me-container {
-    width: 28%;
+    width: 28% !important;
 	 }
 
 	 .zoom-image {
-    width: 45%;
+    width: 45% !important;
 	 }
 }
 
@@ -1249,12 +1265,12 @@ figure {
 		display: none !important;
 	}
 #main-container {
-  	margin-left: 60px;
-    padding: 10px 5px;
+  	margin-left: 60px !important;
+    padding: 10px 5px !important;
 	}
 
 	.container{
-		padding: 15px 30px;
+		padding: 15px 30px !important;
 	}
 
 	.main-navigation {
@@ -1264,27 +1280,27 @@ figure {
     padding: 10px 5px!important;
 	}
 	.menu-item a {
-    letter-spacing: 0.1em;
-    font-size: 12px;
+    letter-spacing: 0.1em !important;
+    font-size: 12px !important;
 	}
 	.full-name {
 	    font-size: 32px!important;
 	}
 
 	.about-me-container {
-	    width: 105%;
-	    margin: 25px 0 0 0px;
+	    width: 105% !important;
+	    margin: 25px 0 0 0px !important;
 	}
 	.zoom-image {
-    width: 90%;
+    width: 90% !important;
 	}
 
 	.about-me-wrapper {
-    width: 220px;
+    width: 220px !important;
 	}
 
 	.roles {
-    font-size: 18px;
+    font-size: 18px !important;
 	}
 
 }
