@@ -1217,8 +1217,52 @@ figure {
 
 /* Responsiveness */
 
-@media only screen and (max-width: 499px) and (min-width: 250px){
-	
+/* @media only screen and (max-width: 499px) and (min-width: 250px){
+	.main-navigation ul{
+		display: block !important;
+	}
+	.menu-toggle{
+		display: none !important;
+	}
+	#main-container {
+  		margin-left: 60px !important;
+    		padding: 10px 5px !important;
+	}
+
+	.container{
+		padding: 15px 30px !important;
+	}
+
+	.main-navigation {
+    		width: 60px !important;
+	}
+	.menu-item {
+    		padding: 10px 5px!important;
+	}
+	.menu-item a {
+	    letter-spacing: 0.1em !important;
+	    font-size: 12px !important;
+	}
+	.full-name {
+	    font-size: 32px!important;
+	}
+
+	.about-me-container {
+	    width: 105% !important;
+	    margin: 25px 0 0 0px !important;
+	}
+	.zoom-image {
+   	    width: 90% !important;
+	}
+
+	.about-me-wrapper {
+    width: 220px !important;
+	}
+
+	.roles {
+    font-size: 18px !important;
+	}
+} */
 
 
 
@@ -1303,6 +1347,6 @@ figure {
     font-size: 18px !important;
 	}
 }
-}
+
 
 	
