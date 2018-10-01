@@ -8,6 +8,17 @@
 
   <body>
 
+    <nav id="site-navigation" class="main-navigation">
+			<img src="https://usource.agency/webdev/Niel/portfolio1/wp-content/uploads/2018/09/Mark-Niel-Magtibay-1.png">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'niel-portfolio-1' ); ?></button>
+			<?php
+			wp_nav_menu( array(
+				'theme_location' => 'menu-1',
+				'menu_id'        => 'primary-menu',
+			) );
+			?>
+		</nav><!-- #site-navigation -->
+    
     <div id = "main-container">
       <section id = "home" class = "container center-text">
 
@@ -153,9 +164,9 @@
         <h2>Contact Me</h2>
         <hr style="width:200px" class="w3-opacity">
         <br>
-        <h3><strong style="color: #e8b900;">USource Global Services (Philippines)</strong></h3>
-        <p style="margin-bottom: 0px;">MVL Centre, 6th Floor, National Road, Lipa, 4217</p>
-        <p>mark.m@usource.me</p>
+        <p>EMAIL : marknielmagtibay@gmail.com</p>
+        <p>Skype ID : marknielmagtibay@gmail.com</p>
+        <p>Online Jobs : https://www.onlinejobs.ph/jobseekers/info/729927</p>
         <br>
       </section>
     </div>
