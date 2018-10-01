@@ -1199,22 +1199,38 @@ figure {
 }
 
 .about-me-container{
-	display: inline-block !important;
-	position: relative !important;
-	width: 30% !important;
-	height: auto !important;
-	margin: 25px 0 0 25px !important;
-	text-align: center !important;
-	box-sizing: border-box !important;
-	vertical-align: top !important;
+	display: inline-block;
+	position: relative;
+	width: 30%;
+	height: auto;
+	margin: 25px 0 0 25px;
+	text-align: center;
+	box-sizing: border-box;
+	vertical-align: top;
 }
 
 .about-me-container p, .about-me-container h3, .about-me-container ul li{
-	word-break: break-word !important;
-	text-align: left !important;
+	word-break: break-word;
+	text-align: left;
 }
 
 /* Responsiveness */
+@media only screen and (max-width: 1183px) and (min-width: 770px){
+	#main-container {
+	    padding: 30px 40px;
+	}
+
+	.zoom-image {
+	    width: 28%;
+	}
+
+.about-me-container {
+    width: 28%;
+	}
+	.menu-item {
+	    height: calc(20vh - 26px) !important;
+	}
+}
 
 @media only screen and (max-width: 769px) and (min-width: 500px){
 	.main-navigation ul{
@@ -1224,15 +1240,15 @@ figure {
 		display: none !important;
 	}
 	#main-container {
-	    padding: 30px 30px !important;
+	    padding: 30px 30px;
 	 }
 
 	 .about-me-container {
-    width: 28% !important;
+    width: 28%;
 	 }
 
 	 .zoom-image {
-    width: 45% !important;
+    width: 45%;
 	 }
 }
 
@@ -1244,12 +1260,12 @@ figure {
 		display: none !important;
 	}
 #main-container {
-  	margin-left: 60px !important;
-    padding: 10px 5px !important;
+  	margin-left: 60px;
+    padding: 10px 5px;
 	}
 
 	.container{
-		padding: 15px 30px !important;
+		padding: 15px 30px;
 	}
 
 	.main-navigation {
@@ -1259,19 +1275,19 @@ figure {
     padding: 10px 5px!important;
 	}
 	.menu-item a {
-    letter-spacing: 0.1em !important;
-    font-size: 12px !important;
+    letter-spacing: 0.1em;
+    font-size: 12px;
 	}
 	.full-name {
 	    font-size: 32px!important;
 	}
 
 	.about-me-container {
-	    width: 105% !important;
-	    margin: 25px 0 0 0px !important;
+	    width: 105%;
+	    margin: 25px 0 0 0px;
 	}
 	.zoom-image {
-    width: 90% !important;
+    width: 90%;
 	}
 
 	.about-me-wrapper {
@@ -1283,4 +1299,3 @@ figure {
 	}
 
 }
-
