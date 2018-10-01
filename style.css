@@ -1218,6 +1218,46 @@ figure {
 /* Responsiveness */
 
 @media only screen and (max-width: 499px) and (min-width: 250px){
+	
+
+
+
+@media only screen and (max-width: 769px) and (min-width: 500px){
+		
+	.main-navigation ul{
+	    display: block !important;
+	}
+	
+	.menu-toggle{
+	    display: none !important;
+	}
+	
+	#main-container {
+	    padding: 30px 30px !important;
+	 }
+
+	 .zoom-image {
+   	    width: 45% !important;
+	 }
+}
+
+@media only screen and (max-width: 1183px) and (min-width: 770px){
+/* 	#main-container {
+	    padding: 30px 40px;
+	}
+
+	.zoom-image {
+	    width: 28%;
+	}
+
+	.about-me-container {
+	    width: 28%;
+	}
+	
+	.menu-item {
+	    height: calc(20vh - 26px) !important;
+	}	 */
+	
 	.main-navigation ul{
 		display: block !important;
 	}
@@ -1263,26 +1303,6 @@ figure {
     font-size: 18px !important;
 	}
 }
-
-
-
-@media only screen and (max-width: 769px) and (min-width: 500px){
-		
-	.main-navigation ul{
-	    display: block !important;
-	}
-	
-	.menu-toggle{
-	    display: none !important;
-	}
-	
-	#main-container {
-	    padding: 30px 30px !important;
-	 }
-
-	 .zoom-image {
-   	    width: 45% !important;
-	 }
 }
 
-
+	
